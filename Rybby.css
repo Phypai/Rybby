@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(243, 134, 134);
+}
+article {
+    margin: 0;
+    padding: 1rem 2rem;
+    color: white;
+    position: relative;
+}
+/* create a gradient wrapper */
+.gradient-box {
+    transform:translateY(-925px);
+background: linear-gradient(to right,
+    rgb(247, 77, 77),
+    rgb(243, 134, 134)
+    );
+}
+/* remove weird space under SVG tag */
+.gradient-box svg {
+   display: block;
+}
+h1 {
+    text-align:center;
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    transform: translateY(200px)
+}
+h2 {
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    transform: translateY(50px) translateX(900px)
+}
+h3 {
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    transform: translateY(-300px) translateX(200px)
+}
+p {
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    text-align: center;
+    transform: translateY(200px)
+}
+img {
+    transform:translateY(50px) translateX(770px)
+
+}
+iframe {
+    border:7px solid black;
+    margin:auto;
+    border-radius: 20px;
+}
+.Puppies {
+transform: translateX(900px) translateY(25px)
+}
+.Application {
+    transform: translateX(800px) translateY(0px)
+}
+.Other {
+    transform: translateX(1105px) translateY(-25px)
+}
+.Dogs {
+    transform: translateX(1045px) translateY(-50px)
+}
