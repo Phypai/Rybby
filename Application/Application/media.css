@@ -28,14 +28,47 @@
         width:50%;
     }
 }
-@media all and (max-width:600px) {
+@media all and (max-width:390px) {
     header {
         width: 100%;
     }
 }
-@media all and (min-width:601px) {
+@media all and (min-width:391px) {
     header {
         width: 100%;
+    }
+}
+@media all and (max-width:549px) {
+    .gradient-box {
+        width: 50%;
+    }
+}
+@media all and (min-width:550px) {
+    .gradient-box {
+        width: 55%;
+    }
+}
+@media all and (max-width:549px) {
+    .login {
+        margin-right:-100px;
+    }
+}
+@media all and (min-width:550px) {
+    .Home {
+        margin-left:300px;
+    }
+}
+@media all and (max-width:390px) {
+    .login {
+        margin-right:-100px;
+    }
+}
+@media all and (min-width:391px) {
+    .Home {
+        margin-left:70px;
+    }
+    .Book {
+     
     }
 }
 @media all and (min-width:844px) {
