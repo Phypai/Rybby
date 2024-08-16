@@ -1,0 +1,22 @@
+@media (max-width:600px) {
+    body {
+        width: 100%;
+        flex-wrap:wrap;
+    }
+}
+@media (min-width:601px) {
+    body {
+        width: 100%;
+        flex-wrap:wrap;
+    }
+}
+@media (max-width:600px) {
+    header {
+        width: 100%;
+    }
+}
+@media (min-width:601px) {
+    header {
+        width: 100%;
+    }
+}
