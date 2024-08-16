@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<header>
+    <div class="gradient-box"> 
+     <div class="Puppies"><button>Available Puppies</button></div>
+     <div class="Application"><button>Application</button></div>
+     <div class="Other"><button>Other Animals</button></div>
+     <div class="Dogs"><button>Dogs</button></div>
+     <div class="Book"><button>Book Appointment</button></div>
+    </div> 
+ </header>
+<main>
+    <body>
+        <h1>Application</h1>
+        <section class="section-1">
+            <ol class="questions">
+                <li>Do you own other pets?</li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <li>Do you have a fenced in yard?</li>
+                <li>Do you rent or own?</li>
+                <li>How many acres do you own?</li>
+                <li>Do you have previous experience with this breed?</li>
+                <li>What gender are you looking for?</li>
+            </ol>
+                <select class="Pets" id="Pets">
+                    <option selected>None</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+                <p class="number">How many?</p>
+                <input type="text" name="How many" class="number_text" id="number"/>
+                <p class="type">Type?</p>
+                <select class="type_button">
+                    <option selected>None</option>
+                    <option>Dog</option>
+                    <option>Cat</option>
+                    <option>Other</option>
+                </select>
+                <p class="breed">Breed?</p>
+                <input type="text" name="Breed" class="breed_text"/>
+                    <select class="Property">
+                        <option selected>None</option>
+                        <option>Rent</option>
+                        <option>Own</option>
+                    </select>
+                    <select class="Yard">
+                        <option selected>None</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                    <input type="text" name="Acres" class="acres"/>
+                    <select class="Experience">
+                        <option selected>None</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                    <select class="Gender">
+                        <option selected>None</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                    </select>
+                <p>I have read and agree to the Terms and Conditions</p>
+        </section>    
+    </body>
+</main>

@@ -1,0 +1,211 @@
+html {
+    height:100%;
+}
+header {
+    display:flex;
+    width:100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(243, 134, 134);
+    display:flex;
+    min-height:100%;
+}
+.gradient-box {
+    width:1200px;
+    height:100px;
+    background: linear-gradient(to right,rgb(247, 77, 77),rgb(243, 134, 134));
+    position:fixed;
+    transform:translateY(-27px);
+    padding:0px 1400px 0px 0px;
+    z-index:1;
+}
+.gradient-box svg {
+   display: block;
+}
+.Puppies {
+    transform: translateX(500px) translateY(32px);
+    z-index: 1;
+}
+.Application {
+    transform: translateX(400px) translateY(-5px);
+    z-index: 1;
+}
+.Other {
+    transform: translateX(860px) translateY(-40px);
+    z-index: 1;
+}
+.Dogs {
+    transform: translateX(644px) translateY(-78px);
+    z-index: 1;
+}
+.Book {
+    transform: translateX(705px) translateY(-115px);
+    z-index: 1;
+}
+button {
+    background-color: rgb(247, 80, 80);
+    color: rgb(0, 0, 0);
+    border-radius:20px;
+    margin: auto;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:7px;
+}
+button:hover {
+    color:black;
+    background-color:silver;
+}
+button:active {
+    color:black;
+    background-color:silver;
+}
+button:focus {
+    color:black;
+    background-color:silver;
+}
+.pets {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(100px);
+    border:5%;
+    border-radius:7px;
+}
+.Pets {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(300px);
+    border:5%;
+    border-radius:7px;
+    position:relative;
+    width:75px;
+    height:40px;
+}
+.Property {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(200px);
+    border-radius:7px;
+    width:75px;
+    height:40px;
+}
+.Yard {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(200px);
+    border-radius:7px;
+    width:75px;
+    height:40px;
+}
+.Experience {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(200px);
+    border-radius:7px;
+    width:75px;
+    height:40px;
+}
+.Gender {
+    background-color:silver;
+    color:black;
+    padding:7px;
+    transform:translateY(200px);
+    border-radius:7px;
+    width:75px;
+    height:40px;
+}
+ol li {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:150%;
+    margin:auto;
+    position:relative;
+    transform:translateY(150px) translateX(300px);
+    padding:10px;
+    margin:0px 0px 0px 300px;
+    flex-wrap:wrap;
+    width:100%;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:150%;
+    margin:auto;
+    position:relative;
+    transform:translateY(250px);
+    padding:10px;
+    margin:0px 0px 0px 300px;
+}
+.number {
+    padding:20px 20px 20px 50px;
+    margin:auto;
+    z-index:0;
+}
+.type {
+    padding:10px;
+    margin:auto;
+    position:relative;
+    bottom:105px;
+}
+.breed {
+    padding:10px;
+    margin:auto;
+    position:relative;
+    bottom:250px;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:black;
+    margin:10px 10px -10px 1200px;
+    padding:100px 100px 50px 10px;
+    font-size:300%;
+}
+.number_text {
+    position:relative;
+    padding:10px;
+    margin:auto;
+    border-radius:7px;
+    background-color:silver;
+    width:30px;
+    height:15px;
+    top:195px;
+    left:200px;
+}
+.type_button {
+    position:relative;
+    padding:10px;
+    margin:auto;
+    border-radius:7px;
+    background-color:silver;
+    top:50px;
+    left:400px;
+    width:75px;
+    height:40px;
+}
+.breed_text {
+    position:relative;
+    padding:10px;
+    margin:auto;
+    border-radius:7px;
+    background-color:silver;
+    bottom:100px;
+    left:700px;
+    width:200px;
+    height:50px;
+}
+.section-1 {
+    position:relative;
+    width: 1000px;
+    height: 1000px;
+    background: linear-gradient(to right,rgb(247, 77, 77),rgb(243, 134, 134));
+    display:flex;
+}
