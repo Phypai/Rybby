@@ -1,3 +1,4 @@
+rgb(247, 80, 80)
 html {
     height:100%;
 }
@@ -9,37 +10,49 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgb(243, 134, 134);
+    background-color:silver;
     display:flex;
     min-height:100%;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:center;
 }
 .gradient-box {
-    width:95%;
-    height:100px;
     background: linear-gradient(to right,rgb(19, 18, 71)30%,rgb(243, 134, 134));
+    width:1280px;
+    height:100px;
     position:fixed;
-    /* transform:translateY(-27px); */
-    /* padding:0px 1400px 0px 0px; */
     z-index:1;
     display:flex;
-    justify-content: flex-start;
     padding-top: 5px;
     flex-wrap:wrap;
-    border-radius:7px;
+    border-radius:2px;
 }
 .gradient-box button {
-    /* margin-left:10px; */
-    margin: 30px 0px 0 10px;
     padding:7px;
 }
-.Home {
-    margin-left:300px;
+.login-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    height:100px;
+    width:100px;
+}
+.button-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    margin-left:350px;    
+    height:100px;
 }
 button {
-    background-color: rgb(247, 80, 80);
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(238, 230, 113);
     color: rgb(0, 0, 0);
     border-radius:20px;
-    margin: auto;
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
@@ -48,6 +61,7 @@ button {
 button:hover {
     color:black;
     background-color:silver;
+    cursor:pointer;
 }
 button:active {
     color:black;
@@ -57,30 +71,49 @@ button:focus {
     color:black;
     background-color:silver;
 }
+a {
+    text-decoration:none;
+}
+.image-1 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    padding:10px;
+    z-index:2;
+    width:100px;
+    height:100px;
+
+}
+img {
+    width:100%;
+    height:100%;
+}
 .pets {
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(100px);
     border:5%;
     border-radius:7px;
 }
 .Pets {
+    display:flex;
+    flex-wrap:wrap;
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(300px);
     border:5%;
     border-radius:7px;
-    position:relative;
+    position:absolute;
     width:75px;
     height:40px;
+    justify-content:center;
+    margin-left:300px;
+    margin-top:-30px;
 }
 .Property {
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(200px);
     border-radius:7px;
     width:75px;
     height:40px;
@@ -89,7 +122,6 @@ button:focus {
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(200px);
     border-radius:7px;
     width:75px;
     height:40px;
@@ -98,7 +130,6 @@ button:focus {
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(200px);
     border-radius:7px;
     width:75px;
     height:40px;
@@ -107,7 +138,6 @@ button:focus {
     background-color:silver;
     color:black;
     padding:7px;
-    transform:translateY(200px);
     border-radius:7px;
     width:75px;
     height:40px;
@@ -118,8 +148,7 @@ ol li {
     font-size:150%;
     margin:auto;
     position:relative;
-    padding:10px;
-    margin:0px 0px 0px 100px;
+    padding:0 0 130px 0;
     flex-wrap:wrap;
     width:100%;
 }
@@ -131,33 +160,43 @@ p {
     position:relative;
     transform:translateY(250px);
     padding:10px;
-    margin:0px 0px 0px 300px;
 }
 .number {
-    padding:20px 20px 20px 50px;
     margin:auto;
     z-index:0;
+    bottom:42px;
+    left:-200px;
 }
 .type {
-    padding:10px;
     margin:auto;
     position:relative;
-    bottom:105px;
+    bottom:240px;
+    left:100px;
 }
 .breed {
-    padding:10px;
     margin:auto;
     position:relative;
-    bottom:250px;
+    bottom:435px;
+    left:350px;
 }
 h1 {
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     color:black;
-    margin:10px 10px -10px 1200px;
-    padding:100px 100px 50px 10px;
+    padding:150px 0 10px 0;
     font-size:300%;
     display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+.interest_text {
+    position:relative;
+    padding:10px;
+    margin:auto;
+    border-radius:7px;
+    background-color:silver;
+    width:400px;
+    height:100px;
 }
 .number_text {
     position:relative;
@@ -167,8 +206,17 @@ h1 {
     background-color:silver;
     width:30px;
     height:15px;
-    top:195px;
-    left:200px;
+    bottom:200px;
+    left:-50px;
+}
+.acres {
+    position:relative;
+    padding:10px;
+    margin:auto;
+    border-radius:7px;
+    background-color:silver;
+    width:75px;
+    height:40px;
 }
 .type_button {
     position:relative;
@@ -176,30 +224,37 @@ h1 {
     margin:auto;
     border-radius:7px;
     background-color:silver;
-    top:50px;
-    left:400px;
     width:75px;
     height:40px;
+    bottom:400px;
+    left:200px;
+}
+.other-pets {
+    height:300px;
 }
 .breed_text {
     position:relative;
-    padding:10px;
     margin:auto;
+    padding:10px;
     border-radius:7px;
     background-color:silver;
-    bottom:100px;
-    left:700px;
     width:200px;
     height:50px;
+    bottom:610px;
+    left:450px;
 }
 .section_1 {
-    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
     height: 80%;
     width:50%;
-    background-color:rgb(247, 77, 77);
+    background-color:rgb(243, 134, 134);
     border: solid rgb(19, 18, 71);
-    padding:2%;
-    margin-left:57%;
+    padding:50px 20%;
     border-width:15px;
     border-radius:30px;
+    align-items:center;
+    justify-content:center;
+    margin-left:50px;
 }

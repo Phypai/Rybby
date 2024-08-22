@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgb(243, 134, 134);
+    background-color:silver;
     display:flex;
     min-height:100%;
 }
@@ -13,23 +13,62 @@ header {
     display:flex;
 }
 .gradient-box {
-    width:1200px;
+    background: linear-gradient(to right,rgb(19, 18, 71)30%,rgb(243, 134, 134));
+    width:1280px;
     height:100px;
-    background: linear-gradient(to right,rgb(247, 77, 77),rgb(243, 134, 134));
     position:fixed;
-    transform:translateY(-27px);
     z-index:1;
+    display:flex;
+    padding-top: 5px;
+    flex-wrap:wrap;
+    border-radius:2px;
 }
-.gradient-box svg {
-   display: block;
+.gradient-box button {
+    padding:7px;
 }
-h1 {
-    text-align:center;
-    font-size:40px;
+.login-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    height:100px;
+    width:100px;
+}
+.button-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
+    margin-left:350px;    
+    height:100px;
+}
+button {
+    display:flex;
+    flex-wrap:wrap;
+    background-color: rgb(238, 230, 113);
+    color: rgb(0, 0, 0);
+    border-radius:20px;
+    /* margin: auto; */
+    font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
-    color: black;
-    transform: translateY(200px)
+    padding:7px;
+}
+button:hover {
+    color:black;
+    background-color:silver;
+    cursor:pointer;
+}
+button:active {
+    color:black;
+    background-color:silver;
+}
+button:focus {
+    color:black;
+    background-color:silver;
+}
+a {
+    text-decoration:none;
 }
 h2 {
     font-size:20px;
@@ -43,7 +82,6 @@ h3 {
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     color: black;
-    transform: translateX() translateY();
 }
 p {
     font-size: 16px;
@@ -61,45 +99,29 @@ video {
     padding:10px;
     max-width:100%;
 }
-.Puppies {
-    transform: translateX(500px) translateY(32px);
-    z-index: 1;
+.image-1 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    padding:10px;
+    z-index:2;
+    width:100px;
+    height:100px;
+
 }
-.Application {
-    transform: translateX(400px) translateY(-5px);
-    z-index: 1;
+img {
+    width:100%;
+    height:100%;
 }
-.Other {
-    transform: translateX(860px) translateY(-40px);
-    z-index: 1;
+.img_2 {
+    width:25%;
+    height:40%;
+    padding:10px;
+    margin-bottom:-400px;
+    margin-top:200px;
+    margin-left:650px;
+    align-items:center;
 }
-.Dogs {
-    transform: translateX(644px) translateY(-78px);
-    z-index: 1;
-}
-.Book {
-    transform: translateX(705px) translateY(-115px);
-    z-index: 1;
-}
-button {
-    background-color: rgb(247, 80, 80);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-    margin: auto;
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    padding:7px;
-}
-button:hover {
-    color:black;
-    background-color:silver;
-}
-button:active {
-    color:black;
-    background-color:silver;
-}
-button:focus {
-    color:black;
-    background-color:silver;
+.About {
+    background-color:rgb(243, 134, 134);
 }
